@@ -22,4 +22,4 @@ def convert_docx_simple(src_path: Path, dst_path: Path):
         new_doc.save(dst_path)
         
     else:
-        raise ValueError(f"Запись в {ext} на данном этапе не поддерживается.")
+        raise ValueError(f"Запись в {ext} не поддерживается.")
